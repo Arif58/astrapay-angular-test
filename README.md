@@ -14,7 +14,7 @@ Cara menjalankan aplikasi Angular:
 ![Validasi berhasil](ss-result/eksekusi-success-validasi.jpeg)
 
 ### 3. API - Get Notes
-![API Get Notes](ss-result/eksekusi-success-validasi.jpeg)
+![API Get Notes](ss-result/request-get-notes.jpeg)
 
 ### 4. API - Add Note
 ![API Add Note](ss-result/eksekusi-success-validasi.jpeg)
