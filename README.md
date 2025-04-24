@@ -5,16 +5,25 @@ Cara menjalankan aplikasi Angular:
 4. Jalankan perintah: `npm install`
 5. Jalankan perintah: `ng serve`
 
-![Eksekusi terkena validasi](ss-result/eksekusi-validasi.jpeg)
+## Dokumentasi Tampilan Aplikasi
 
-![Eksekusi validasi berhasil dilewati](ss-result/eksekusi-success-validasi.jpeg)
+### 1. Validasi Gagal
+![Validasi gagal](ss-result/eksekusi-validasi.jpeg)
 
-![Detail API Get Notes](ss-result/notes-list.jpeg)
+### 2. Validasi Berhasil
+![Validasi berhasil](ss-result/eksekusi-success-validasi.jpeg)
 
-![Detail API Add Note](ss-result/eksekusi-success-validasi.jpeg)
+### 3. API - Get Notes
+![API Get Notes](ss-result/notes-list.jpeg)
 
-![Detail API Delete Note](ss-result/request-delete-notes.jpeg)
+### 4. API - Add Note
+![API Add Note](ss-result/eksekusi-success-validasi.jpeg)
 
-![Halaman tampilan list kosong](ss-result/empty-notes-list.jpeg)
+### 5. API - Delete Note
+![API Delete Note](ss-result/request-delete-notes.jpeg)
 
-![Halaman tampilan berisi 6 notes](ss-result/notes-list.jpeg)
+### 6. Tampilan Kosong
+![Tampilan kosong](ss-result/empty-notes-list.jpeg)
+
+### 7. Tampilan Berisi 6 Notes
+![Tampilan berisi 6 notes](ss-result/notes-list.jpeg)
