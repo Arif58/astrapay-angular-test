@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="text-center mb-3 mt-5">Notes App</h1>
+
+
+    <div class="">
+        <a href="#" routerLink="/note/create" class="btn btn-primary">Tambah Note</a>
+    </div>
+    <div class="row mt-3">
+        @if (notes.length == 0) {
+            <div class="text-center">
+                <h3 class="text-body-tertiary"><i class="bi bi-info-circle"></i><br>Empty Note</h3>
+            </div>
+        }
+        <div *ngFor="let note of notes" class="col-3 card me-2 mb-3" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">{{ note.title }}</h5>
+              <p class="card-text" [innerHTML]="convertNewlinesToBreaks(note.content)"></p>
+                
+            </div>
+            <div class="card-footer bg-white text-center">
+                <button type="button" class="btn btn-danger" (click)="deleteNote(note.id)"><i class="bi bi-trash"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
